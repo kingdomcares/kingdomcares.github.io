@@ -22,10 +22,16 @@
         offset: 51
     })
 
-    // Closes the Responsive Menu on Menu Item Click
-    $('.navbar-collapse ul li a').click(function() {
-        $('.navbar-toggle:visible').click();
-    });
+    // Rusty - Opens submenu when colapsed
+    $(function () {
+  		$('.dropdown-menu').dropdown('toggle');
+	});
+    
+    $(document).on('click','.navbar-collapse.in',function(e) {
+    if( $(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle' ) {
+        $(this).collapse('hide');
+    	}
+	});
 
     // Fit Text Plugin for Main Header
     $("h1").fitText(
