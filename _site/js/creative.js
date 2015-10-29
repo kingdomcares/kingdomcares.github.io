@@ -22,16 +22,12 @@
         offset: 51
     })
 
-    // Rusty - Opens submenu when colapsed
+    // Rusty - First function necessary to keep menu from opening upon site load 
     $(function () {
   		$('.dropdown-menu').dropdown('toggle');
 	});
     
-    $(document).on('click','.navbar-collapse.in',function(e) {
-    if( $(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle' ) {
-        $(this).collapse('hide');
-    	}
-	});
+    
 
     // Fit Text Plugin for Main Header
     $("h1").fitText(
