@@ -65,7 +65,7 @@ p {
 }
 
 section {
-    padding: 100px 0;
+    padding: 75px 0;
 }
 
 aside {
@@ -184,6 +184,10 @@ header.carousel {
     height: 65%;
 }
 
+footer.carousel {
+    height: 40%;
+}
+
 .carousel-control {
 	opacity: .0;
 }
@@ -196,6 +200,10 @@ header.carousel {
 
 .carousel-inner {
     height: 100%;
+}
+
+.carousel-indicators {
+    bottom: 2%;
 }
 
 /* Background images are set within the HTML using inline CSS, not here */
@@ -251,6 +259,10 @@ header .header-content .header-content-inner p {
 
 header.carousel {
     height: 90%;
+}
+
+footer.carousel {
+    height: 40%;
 }
 
     header .header-content {
@@ -353,6 +365,10 @@ header.carousel {
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
         font-size: 22px;
     }
+}
+
+#contact .btn  {
+	background-color: #ed1b2f;
 }
 
 .call-to-action h2 {
