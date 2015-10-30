@@ -220,6 +220,13 @@ footer.carousel {
     background-repeat:no-repeat;
 }
 
+#testCarousel .fill {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover ;
+    -o-background-size: cover;
+    background-repeat:no-repeat;
+	}
 
 header {
     position: relative;
@@ -388,7 +395,12 @@ footer.carousel {
 	.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 	.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     color: #fff;
-}
+	}
+	
+	#testCarousel .player {
+    background-position: 50% 20%;
+	}
+	
 }
 
 #contact .btn  {
