@@ -11,7 +11,8 @@ body {
 }
 
 body {
-    font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+    font-family: 'Raleway','Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-weight: 300;
 }
 
 hr {
@@ -21,7 +22,7 @@ hr {
 }
 
 hr.light {
-    border-color: #fff;
+    border-color: #000;
 }
 
 a {
@@ -42,12 +43,12 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Raleway', 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
 p {
     margin-bottom: 20px;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.5;
 }
 
@@ -296,8 +297,8 @@ footer.carousel {
     }
     
     .bg-primary {
-    background-color: #ed1b2f;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
 	}
 
 	.bg-dark {
