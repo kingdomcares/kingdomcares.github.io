@@ -21,12 +21,6 @@
         target: '.navbar-fixed-top',
         offset: 51
     })
-
-    // Rusty - First function necessary to keep menu from opening upon site load 
-    $(function () {
-  		$('.dropdown-menu').dropdown('toggle');
-	});
-    
     
 
     // Fit Text Plugin for Main Header
