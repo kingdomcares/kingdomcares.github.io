@@ -539,9 +539,7 @@ fieldset[disabled] .btn-default.active {
     font-size: 16px;
     font-weight: 300;
     color: #333;
-    -webkit-transition: all .35s;
-    -moz-transition: all .35s;
-    transition: all .35s;
+ 
 }
 
 .btn-primary.disabled,
