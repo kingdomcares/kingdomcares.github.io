@@ -90,7 +90,9 @@ aside {
     border-color: rgba(34,34,34,.05);
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     background-color: #fff;
-    
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
 }
 
 .navbar-default .navbar-header .navbar-brand {
@@ -537,6 +539,9 @@ fieldset[disabled] .btn-default.active {
     font-size: 16px;
     font-weight: 300;
     color: #333;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
 }
 
 .btn-primary.disabled,
