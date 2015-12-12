@@ -215,14 +215,94 @@ aside {
     }
 }
 
+header.carousel {
+    height: 80%;
+}
 
 .list-inline{
     margin-top: 10px;
     float: right;   
 }
 
+.carousel-control {
+	opacity: .0;
+}
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.carousel-indicators {
+    bottom: 2%;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: 50% 70%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-repeat:no-repeat;
+}
+
+#testCarousel .fill {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover ;
+    -o-background-size: cover;
+    background-repeat:no-repeat;
+	}
+
+header {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    
+    background-color: #fff;
+   
+}
+
+header .header-content {
+    position: relative;
+    width: 100%;
+    padding: 100px 15px;
+    text-align: center;
+}
+
+header .header-content .header-content-inner h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+header .header-content .header-content-inner hr {
+    margin: 30px auto;
+}
+
+header .header-content .header-content-inner p {
+    margin-bottom: 50px;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(255,255,255,.7);
+}
+
 @media(min-width:768px) {
    
+
+header.carousel {
+    height: 80%;
+}
 
 	footer {
     background-image: url(../img/footer/kc-footer-background.jpg);
@@ -355,7 +435,28 @@ footer .col-lg-12 {
 }
 
 @media(min-width:768px) {
-   
+    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+        font-size: 16px;
+    }
+
+    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+        font-size: 22px;
+    }
+    
+    .portfolio-box .portfolio-box-caption {
+    opacity: .0;
+    color: #fff;
+    background-color: #ed1b2f;
+	}
+	
+	.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
+	.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    color: #fff;
+	}
+	
+	#testCarousel .player {
+    background-position: 50% 20%;
+	}
 	
 }
 
@@ -369,6 +470,14 @@ footer {
     -o-background-size: contain;
     background-repeat:no-repeat;
     height: 150px;
+}
+
+#contact .btn  {
+	background-color: #ed1b2f;
+}
+
+.call-to-action h2 {
+    margin: 0 auto 20px;
 }
 
 .text-primary {
@@ -612,7 +721,7 @@ body {
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12 kingdomhoops-header">
-					<h1>KingdomCares: Programs</h1>
+					<h1>Programs</h1>
 				</div>
 			</div>
 		</div>		
