@@ -215,14 +215,94 @@ aside {
     }
 }
 
+header.carousel {
+    height: 80%;
+}
 
 .list-inline{
     margin-top: 10px;
     float: right;   
 }
 
+.carousel-control {
+	opacity: .0;
+}
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.carousel-indicators {
+    bottom: 2%;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: 50% 70%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-repeat:no-repeat;
+}
+
+#testCarousel .fill {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover ;
+    -o-background-size: cover;
+    background-repeat:no-repeat;
+	}
+
+header {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    
+    background-color: #fff;
+   
+}
+
+header .header-content {
+    position: relative;
+    width: 100%;
+    padding: 100px 15px;
+    text-align: center;
+}
+
+header .header-content .header-content-inner h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+header .header-content .header-content-inner hr {
+    margin: 30px auto;
+}
+
+header .header-content .header-content-inner p {
+    margin-bottom: 50px;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(255,255,255,.7);
+}
+
 @media(min-width:768px) {
    
+
+header.carousel {
+    height: 80%;
+}
 
 	footer {
     background-image: url(../img/footer/kc-footer-background.jpg);
@@ -355,12 +435,33 @@ footer .col-lg-12 {
 }
 
 @media(min-width:768px) {
-   
+    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+        font-size: 16px;
+    }
+
+    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+        font-size: 22px;
+    }
+    
+    .portfolio-box .portfolio-box-caption {
+    opacity: .0;
+    color: #fff;
+    background-color: #ed1b2f;
+	}
+	
+	.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
+	.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    color: #fff;
+	}
+	
+	#testCarousel .player {
+    background-position: 50% 20%;
+	}
 	
 }
 
 footer {
-    background-image: url(http://kingdomcares.github.io/img/footer/kc-footer-background.jpg);
+    background-image: url(../img/footer/kc-footer-background.jpg);
     background-position: 50% 100%;
     background-color: #424244;
     -webkit-background-size: contain;
@@ -369,6 +470,14 @@ footer {
     -o-background-size: contain;
     background-repeat:no-repeat;
     height: 150px;
+}
+
+#contact .btn  {
+	background-color: #ed1b2f;
+}
+
+.call-to-action h2 {
+    margin: 0 auto 20px;
 }
 
 .text-primary {
@@ -533,22 +642,6 @@ body {
     webkit-tap-highlight-color: #222;
 }
 	
-#kingdomhoops-header {
-	background-image: url(https://kingdomcares.github.io/img/programs-header-no-text.jpg);
-	background-size: cover;
-	background-position: 50% 80%;
-	background-repeat: no-repeat;
-	height: 60%;
-	color: #fff;
-	font-size: 250px;
-	position: relative;
-	}
-
-#kingdomhoops-header h1{
-	position: absolute;
-	
-	left: 50%;
-	}
 
 	</style>
 </head>
@@ -608,48 +701,7 @@ body {
     </nav>
     
     
-    <section id="kingdomhoops-header">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-12 kingdomhoops-header">
-					<h1>KingdomCares: Programs</h1>
-				</div>
-			</div>
-		</div>		
-	</section>
-	
-	<section id="kingdomhoops">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-10 col-sm-offset-1">
-				<h1>Kingdom Hoops</h1>
-					<p>The core of our outreach is our basketball program. Through Kingdom Hoops we are able to offer youth a 
-					unique development opportunity and platform to 300-400 youth annually. While we offer elite basketball 
-					training, our environment is one that creates integrative inclusion – a setting where diverse groups of 
-					youth come together, create relationships, and achieve goals together. Last year, students from over 50 
-					school districts in the state of Iowa to participated in Kingdom Hoops.</p>
-					<div class="scripture">
-						<h3>Isaiah 1:17</h3>
-						<p> Learn to do right; seek justice.  Defend the oppressed.  Take up the cause of the 
-						fatherless; please the case of the widow.</p>  
-						<h3>Isaiah 58:10</h3>
-						<p>If you spend yourselves in behalf of the hungry and satisfy the needs of the oppressed, 
-						then your light will rise in the darkness, and your night will become like the noonday.</p>
-						<h3>James 1:27</h3>
-						<p>Religion that God our Father accepts as pure and faultless is this: to look after the 
-						orphan and widows in their distress and to keep oneself from being polluted by the world.</p>
-					</div>
-					<p>When you join us on mission in Ghana, Africa not only are you choosing to be a voice for the oppressed 
-					and the loving arms for the orphan but you are choosing to be a light of advocacy to your local church, in 
-					your neighborhoods, and in your work places.  When we put our faith in Christ we have also made a 
-					proclamation to spend ourselves on behalf of the oppressed to be a light for Christ in the darkest places 
-					of this world.</p>   
-					<p>If you want to join us in being that light and being that voice amongst the nations please contact Jake 
-					Sullivan at 515-291-1542 or via email <a href="mailto:jakes@sunnybrookchurch.org?Subject=Unstoppable%20Mission%20Interest" target="_top">jakes@sunnybrookchurch.org</a>.</p>
-				</div>	
-			</div>		
-		</div>	
-	</section>
+    
     
     
     <!-- Footer -->
