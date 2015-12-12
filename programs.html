@@ -527,27 +527,35 @@ body {
 }
 	
 #kingdomhoops-header {
-	background-image: url(https://kingdomcares.github.io/img/programs/our-programs-header.jpg);
+	background-image: url(https://kingdomcares.github.io/img/programs/middle-banner-color.jpg);
 	background-size: cover;
-	background-position: 50% 80%;
+	background-position: 50% 50%;
 	background-repeat: no-repeat;
-	height: 60%;
+	height: 70%;
 	color: #fff;
 	position: relative;
 	}
 
 #kingdomhoops-header h1{
 	font-size: 60px !important;
-	text-align: right;
+	font-weight: 400;
+	text-align: left;
+	text-outline: 1px 1px #000;
 	position: absolute;
 	bottom: 10px;
-	right: 7%;
+	left: 7%;
+	line-height: .72;
+	text-shadow: 0.25px 0.25px 0px #000000,
+    			 -0.25px -0.25px 0px #000000,
+    			 -0.25px 0.25px 0px #000000,
+    			 0.25px -0.25px 0px #000000,
+    			 0px 0.25px 1px #000000;
 	}
 
 @media(min-width:768px) {
     #kingdomhoops-header h1{
 	font-size: 80px !important;
-	text-align: center;
+	
 	position: absolute;
 	bottom: 20px;
 	}
@@ -555,18 +563,27 @@ body {
 
 @media(min-width:1000px) {
     #kingdomhoops-header h1{
-	right: 14%;
+	left: 14%;
 	}
 }
 
 #hoops-full-width {
 	background-image: url(https://kingdomcares.github.io/img/programs/middle-banner-bw.jpg);
-	background-size: 100% auto;
+	background-size: cover;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	height: 60%;
 	}
 
+.btn-info, .btn-info:focus  {
+	background-color: #ed1b2f;
+	margin-bottom: 20px;
+	}
+	
+.btn-info:hover  {
+	background-color: #000000;
+	margin-bottom: 20px;
+	}	
 	</style>
 </head>
 
@@ -643,10 +660,124 @@ body {
 					training, our environment is one that creates integrative inclusion – a setting where diverse groups of 
 					youth come together, create relationships, and achieve goals together. Last year, students from over 50 
 					school districts in the state of Iowa to participated in Kingdom Hoops.</p>
+					<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#hoops">More Info</button>
+					<div id="hoops" class="collapse">
+						<p>From a basketball standpoint, our focus remains in the fundamentals and skill development of each 
+					athlete in the program no matter age or level. The opportunity for youth to participate in Kingdom Hoops 
+					goes beyond training in our Des Moines facility as our teams travel and compete in national events. The AAU
+					 basketball model offers a unique exposure opportunity for student-athletes. Each year, 90% of the 
+					 student-athletes on our top 17U program go on to receive some form of an athletic or academic 
+					 scholarship. The Kingdom Hoops program is a process and our staff is committed to coming alongside and 
+					 tailoring the experience to the youth we serve. We believe basketball is the beginning, our vision is to 
+					 create an experience where youth are able to reach their athletic goals, while growing spiritually and 
+					 developing relationships along the way.</p>
+					</div>
 				</div>	
 			</div>		
 		</div>	
 	</section>				
+				
+				
+	<!-- Portfolio Grid Section -->
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Portfolio</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/roundicons.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Round Icons</h4>
+                        <p class="text-muted">Graphic Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/startup-framework.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Startup Framework</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/treehouse.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Treehouse</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/golden.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Golden</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/escape.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Escape</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/dreams.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Dreams</h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>			
+				
+				
+				
 				
 				<section id="hoops-full-width">
 					<div class="container-fluid">
