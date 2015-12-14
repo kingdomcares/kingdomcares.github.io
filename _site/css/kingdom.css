@@ -1,8 +1,4 @@
-/*!
- * Start Bootstrap - Creative Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
+
 
 html,
 body {
@@ -364,8 +360,8 @@ footer .col-lg-12 {
     height: 100%;
     text-align: center;
     color: #fff;
-    opacity: 0.75;
-    background: #ed1b2f;
+    opacity: 1;
+    background: rgba(237,27,47,.50);
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -384,7 +380,7 @@ footer .col-lg-12 {
     padding: 0 15px;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     color: #fff;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
@@ -394,11 +390,11 @@ footer .col-lg-12 {
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-    font-size: 18px;
+    font-size: 36px;
 }
 
 .portfolio-box:hover .portfolio-box-caption {
-    opacity: .85; /* transparency of red while hovering over sections */
+    opacity: 1; /* transparency of red while hovering over sections */
 }
 
 @media(min-width:768px) {
@@ -407,13 +403,13 @@ footer .col-lg-12 {
     }
 
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-        font-size: 22px;
+        font-size: 36px;
     }
     
     .portfolio-box .portfolio-box-caption {
     opacity: .0;
     color: #fff;
-    background-color: #ed1b2f;
+    background-color: rgba(237,27,47,.75);
 	}
 	
 	.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
