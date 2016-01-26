@@ -36,13 +36,16 @@ body {
 body {
     font-family: 'Raleway','Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 300;
+
+
 }
 
 	@media(max-width:768px) {
 	#middle {
     display: none;
 	}
-	}
+	
+}
 
 	hr {
     border-color: #000;
@@ -449,7 +452,7 @@ body {
 
 	
 #kingdomhoops-header {
-	background-image: url(https://kingdomcares.github.io/img/programs/our-programs-header.jpg);
+	background-image: url(https://kingdomcares.github.io/img/programs/our-programs-header-brighter.jpg);
 	background-size: cover;
 	background-position: 100% 25%;
 	background-repeat: no-repeat;
@@ -473,13 +476,21 @@ body {
     			 0px 0.25px 1px #000000;
 	}
 
+	#top-leadership {
+	margin-bottom: 0px;
+	}
+
 @media(min-width:768px) {
     #kingdomhoops-header h1{
 	font-size: 80px !important;
-	
 	position: absolute;
 	bottom: 20px;
 	}
+	
+	#top-leadership {
+	margin-bottom: 50px;
+	}
+	
 }
 
 	@media(min-width:1000px) {
@@ -526,6 +537,8 @@ body {
 	margin-top: 50px;
 	margin-bottom: 50px;
 	}
+	
+	
 	
 	</style>
 
@@ -596,7 +609,7 @@ body {
 	<section id="leadership">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-5 col-sm-offset-1">
+				<div id="top-leadership" class="col-sm-5 col-sm-offset-1">
 					<h1>Jake Sullivan</h1>
 					<img class="img-responsive" src="https://unstoppablemission.github.io/img/sioux-city/backpack.jpg">
 					<h3>Founder and President</h3>
