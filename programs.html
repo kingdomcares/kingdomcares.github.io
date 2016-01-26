@@ -22,6 +22,8 @@
 
     <!-- Plugin CSS -->
     <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+	<link rel="stylesheet" href="css/kc-footer.css" type="text/css">
+
 
     <!-- Custom CSS -->
     
@@ -223,21 +225,6 @@ aside {
 }
 
 @media(min-width:768px) {
-   
-
-	footer {
-    background-image: url(../img/footer/kc-footer-background.jpg);
-    background-position: 50% 100%;
-    background-color: #424244;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    background-size: contain ;
-    -o-background-size: contain;
-    background-repeat:no-repeat;
-    height: 246px;
-	}
-
-
 
     header .header-content {
         position: absolute;
@@ -272,14 +259,6 @@ aside {
 	}
     
 }
-
-footer p {
-	float: right;
-	}
-	
-footer .col-lg-12 {
-	padding-right: 0px;
-	}
 
 .section-heading {
     margin-top: 0;
@@ -376,17 +355,6 @@ footer .col-lg-12 {
 	}
 }
 
-footer {
-    background-image: url(https://kingdomcares.github.io/img/footer/kc-footer-background.jpg);
-    background-position: 50% 100%;
-    background-color: #424244;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    background-size: contain ;
-    -o-background-size: contain;
-    background-repeat:no-repeat;
-    height: 150px;
-}
 
 .text-primary {
     color: #ed1b2f;
@@ -867,9 +835,12 @@ body {
     <!-- Footer -->
     <footer>
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="list-inline">
+            <div  class="row">
+                <div class="col-sm-6 divider">
+                	<a href="index"><img class="img-responsive" src="https://kingdomcares.github.io/img/footer/kc-logo-horiz-rev.svg"></a>
+                </div>
+                <div class="col-sm-3 text-center">
+                    <ul class="pages right">
                         <li>
                             <a href="index">Home</a>
                         </li>
@@ -885,7 +856,10 @@ body {
                         <li>
                             <a href="#about">Our Youth</a>
                         </li>
-                        
+                    </ul>
+                </div>
+				<div class="col-sm-3 text-center">
+                    <ul class="pages left">
                         <li>
                             <a href="#services">Our Leadership</a>
                         </li>
@@ -895,15 +869,44 @@ body {
                         </li>
                         
                         <li>
-                            <a href="#services">Our Governance</a>
+                            <a href="governance">Our Governance</a>
                         </li>
                         
                         <li>
-                            <a href="http://www.rustyhutchison.com">Contact</a>
+                            <a id="contact" href="http://www.rustyhutchison.com">Contact</a>
                         </li>
                     </ul>
                 </div>
-                <p class="copyright text-muted small">© 2013 Kingdom Cares International. All Rights Reserved.</p>
+            </div>
+            <hr id="hr">
+            <div class="row">
+                <div class="col-sm-6 text-center divider">
+                	<a href="https://www.google.com/maps/place/6095+NE+Industry+Dr,+Des+Moines,+IA+50313/data=!4m2!3m1!1s0x87ee9a89275893eb:0x8b1538d1243e9212?sa=X&ved=0ahUKEwjttLqE4MbKAhVqs4MKHc-oCrgQ8gEIHDAA" target="_blank"><h3>6095 NE Industry Drive, Des Moines, IA 50313</h3></a>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <ul id="media" class="list-inline">
+                        <li>
+			    			<a href="#">
+                            	<i id="marketing" class="fa fa-facebook fa-4x"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/KingdomCaresInt">
+                            	<i id="marketing" class="fa fa-twitter fa-4x"></i>
+                            </a>
+                        </li>
+                        <li>
+							<a href="#">
+                            	<i id="marketing" class="fa fa-instagram fa-4x"></i>
+                            </a>                        
+                        </li>
+                        <li>
+							<a href="#">
+                            	<i id="marketing" class="fa fa-youtube fa-4x"></i>
+                            </a> 
+                        </li>
+                    </ul>		
+                </div>
             </div>
         </div>
     </footer>
