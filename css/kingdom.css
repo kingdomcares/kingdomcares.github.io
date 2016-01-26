@@ -358,7 +358,7 @@ footer p {
     text-align: center;
     color: #fff;
     opacity: 1;
-    background: rgba(237,27,47,.50);
+    background: rgba(237,27,47,.0);
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
