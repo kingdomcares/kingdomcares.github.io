@@ -21,6 +21,14 @@ hr.light {
     border-color: #000;
 }
 
+#hr {
+	width: 100%;
+	max-width: 1280px;
+    border-color: gray;
+    border-width: 1px;
+    margin: 0px;
+	}
+
 a {
     color: #ed1b2f;
     -webkit-transition: all .35s;
@@ -31,6 +39,7 @@ a {
 a:hover,
 a:focus {
     color: #ed1b2f;
+    text-decoration: none;
 }
 
 h1,
@@ -263,20 +272,12 @@ header .header-content .header-content-inner p {
 @media(min-width:768px) {
    
 
-header.carousel {
+	header.carousel {
     height: 80%;
-}
+	}
 
 	footer {
-    background-image: url(../img/footer/kc-footer-background.jpg);
-    background-position: 50% 100%;
     background-color: #424244;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    background-size: contain ;
-    -o-background-size: contain;
-    background-repeat:no-repeat;
-    height: 246px;
 	}
 
 
@@ -317,10 +318,6 @@ header.carousel {
 
 footer p {
 	float: right;
-	}
-	
-footer .col-lg-12 {
-	padding-right: 0px;
 	}
 
 .section-heading {
@@ -423,18 +420,8 @@ footer .col-lg-12 {
 	
 }
 
-footer {
-    background-image: url(../img/footer/kc-footer-background.jpg);
-    background-position: 50% 100%;
-    background-color: #424244;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    background-size: contain ;
-    -o-background-size: contain;
-    background-repeat:no-repeat;
-    height: 150px;
-}
 
+	
 #contact .btn  {
 	background-color: #ed1b2f;
 }
