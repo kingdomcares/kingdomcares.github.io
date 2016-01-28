@@ -433,7 +433,7 @@ footer p {
     text-align: center;
     color: #000;
     opacity: 1;
-    background: rgba(66,66,68,.50);
+    background: rgba(66,66,68,.4);
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
