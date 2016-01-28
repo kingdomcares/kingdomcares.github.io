@@ -80,7 +80,6 @@ h6 {
 	background-color: rgba(0,0,0,.2);
 	box-shadow: 1px 1px 30px rgba(0,0,0,.2),
 				-1px -1px 30px rgba(0,0,0,.2);
-	text-align: left;
 	position: absolute;
 	bottom: 10px;
 	line-height: 1;
@@ -91,6 +90,9 @@ h6 {
     			 0px 0.25px 1px #000000;
 	}
 	
+	.grace h1 {
+	text-align: center;
+	}
 	
 	.header-shadow {
     right: 14%; 
