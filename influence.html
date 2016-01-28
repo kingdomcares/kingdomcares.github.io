@@ -6,10 +6,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Kingdom Cares Governance: Financials and Policies">
+    <meta name="description" content="We focus on developing leadership, sacrifice, teamwork, determination, and commitment both 
+    on and off the court.">
     <meta name="author" content="Rusty Hutchison">
 
-    <title>Kingdom Cares - Our Governance</title>
+    <title>Kingdom Cares - Our Influence</title>
 	<link rel="icon" href="img/kingdom-icon.png">
    
     <!-- Bootstrap Core CSS -->
@@ -22,7 +23,7 @@
 
     <!-- Plugin CSS -->
     <link rel="stylesheet" href="css/animate.min.css" type="text/css">
-    <link rel="stylesheet" href="css/kc-footer.css" type="text/css">
+	<link rel="stylesheet" href="css/kc-footer.css" type="text/css">
 
 
     <!-- Custom CSS -->
@@ -51,7 +52,7 @@ body {
 }
 
 hr {
-    max-width: 75%;
+    max-width: 50px;
     border-color: #ed1b2f;
     border-width: 3px;
 }
@@ -108,10 +109,6 @@ section {
 
 aside {
     padding: 50px 0;
-}
-
-.img-responsive {
-    margin: 0 auto;
 }
 
 .no-padding {
@@ -229,7 +226,6 @@ aside {
 }
 
 @media(min-width:768px) {
-   
 
     header .header-content {
         position: absolute;
@@ -267,95 +263,6 @@ aside {
 
 .section-heading {
     margin-top: 0;
-}
-
-.service-box {
-    margin: 50px auto 0;
-    max-width: 400px;
-}
-
-@media(min-width:992px) {
-    .service-box {
-        margin: 20px auto 0;
-    }
-}
-
-.service-box p {
-    margin-bottom: 0;
-}
-
-#portfolio .portfolio-item{
-	margin:0 0 15px;
-	right:0
-	}
-
-#portfolio .portfolio-item .portfolio-link{
-	display:block;
-	position:relative;
-	
-	margin:0 auto
-	}
-
-#portfolio .portfolio-item .portfolio-link .portfolio-hover{
-	background-color: #ed1b2f; 
-	position:absolute;
-	width:100%;
-	height:100%;
-	opacity:0;
-	transition:all ease .5s;
-	-webkit-transition:all ease .5s;
-	-moz-transition:all ease .5s
-	}
-
-#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover{
-	opacity:.7
-	}
-
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content{
-	position:absolute;
-	width:100%;
-	height:20px;
-	font-size:20px;
-	text-align:center;
-	top:50%;
-	margin-top:-12px;
-	color:#fff
-	}
-
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i{
-	margin-top:-12px
-	}
-
-#portfolio .portfolio-item .portfolio-link .portfolio-hover
- .portfolio-hover-content h3,#portfolio .portfolio-item 
- .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
- 	margin:0
- 	}
-
-#portfolio .portfolio-item .portfolio-caption{
-	margin:0 auto;
-	background-color:#fff;
-	text-align:center;
-	}
-
-#portfolio .portfolio-item .portfolio-caption h4{
-	text-transform:none;
-	margin:0
-	}
-
-#portfolio .portfolio-item .portfolio-caption p{
-	font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-style:italic;
-	font-size:16px;
-	margin:0
-	}
-
-#portfolio *{z-index:2}
-
-@media (min-width:767px){
-	#portfolio .portfolio-item{
-	margin:0 0 30px
-	}
 }
 
 
@@ -416,9 +323,9 @@ fieldset[disabled] .btn-default.active {
     background-color: #fff;
 }
 
-.btn-default .badge {
+.btn-default {
     color: #fff;
-    background-color: #222;
+    background-color: #ed1b2f;
 }
 
 .btn-primary {
@@ -493,6 +400,7 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-xl {
     padding: 15px 30px;
+        margin-bottom: 20px;
 }
 
 ::-moz-selection {
@@ -525,8 +433,8 @@ body {
 	border-bottom: thin solid gray;
 	}
 	
-#page-header {
-	background-image: url(https://kingdomcares.github.io/img/governance/governance-header.jpg);
+#kingdomhoops-header {
+	background-image: url(/img/youth/youth.jpg);
 	background-size: cover;
 	background-position: 50% 0%;
 	background-repeat: no-repeat;
@@ -535,10 +443,14 @@ body {
 	position: relative;
 	}
 
-#page-header h1{
-	font-size: 50px !important;
+#kingdomhoops-header h1{
+	background-color: rgba(0,0,0,.2);
+	box-shadow: 1px 1px 30px rgba(0,0,0,.2),
+				-1px -1px 30px rgba(0,0,0,.2);
+	font-size: 60px !important;
 	font-weight: 700;
 	text-align: left;
+	text-outline: 1px 1px #000;
 	position: absolute;
 	bottom: 10px;
 	line-height: .72;
@@ -550,7 +462,7 @@ body {
 	}
 
 @media(min-width:768px) {
-    #page-header h1{
+    #kingdomhoops-header h1{
 	font-size: 80px !important;
 	
 	position: absolute;
@@ -559,7 +471,7 @@ body {
 }
 
 @media(min-width:1000px) {
-    #page-header h1{
+    #kingdomhoops-header h1{
 	left: 14%;
 	}
 }
@@ -582,54 +494,32 @@ body {
 	margin-bottom: 20px;
 	}	
 
-#portfolio {
-	padding-top: 0px;
-	padding-bottom: 50px;
+#program-links  {
+	margin-bottom: 50px;
+	margin-top: 30px;
 	}
 
-.modal-body {
-	margin-top: 20px;
-	height: 100%;
+#program-links a {
+	margin-bottom: 30px;
+	margin-top: 30px;
 	}
 
-.portfolio-modal .modal-content {
-    
-    padding: 100px 0px 0px 0px;
-    height: 900px;
+#districts h2 {
+	margin-bottom: 20px;
+	}
 
+#districts  {
+	border: 1px solid black;
+	}
+
+@media(max-width:768px) {
+   #districts  {
+	border: 1px solid black;
+	margin: 50px 10px 50px 10px;
+	}
 }
 
-.portfolio-modal .close-modal {
-    position: absolute;
-    width: 75px;
-    height: 75px;
-    background-color: transparent;
-    top: 25px;
-    right: 25px;
-    cursor: pointer;
-}
 
-.portfolio-modal .close-modal .lr {
-	height:75px;
-	width:1px;
-	margin-left:35px;
-	background-color:#222;
-	transform:rotate(45deg);
-	-ms-transform:rotate(45deg);
-	-webkit-transform:rotate(45deg);
-	z-index:1051
-	}
-
-.portfolio-modal .close-modal .lr .rl {
-	height:75px;
-	width:1px;
-	background-color:#222;
-	transform:rotate(90deg);
-	-ms-transform:rotate(90deg);
-	-webkit-transform:rotate(90deg);
-	z-index:1052
-	}
-	
 	</style>
 </head>
 
@@ -661,7 +551,7 @@ body {
                                 <a href="programs">Our Programs</a>
                             </li>
                             <li>
-                                <a href="portfolio-2-col.html">Our Story</a>
+                                <a href="#">Our Story</a>
                             </li>
                             <li>
                                 <a href="youth">Our Youth</a>
@@ -688,86 +578,42 @@ body {
     </nav>
     
     
-    <section id="page-header">
+    <section id="kingdomhoops-header">
 		<div class="container">
 			
-					<h1>OUR<BR>GOVERNANCE</h1>
+					<h1>OUR<BR>INFLUENCE</h1>
 		
 		</div>		
 	</section>
 	
-	<section id="financials">
+	<section id="kingdomhoops">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-10 col-sm-offset-1 text-center">
-				<h1 style="color: #ed1b2f">FINANCIALS</h1>
-					<hr>
-					<p>Where our funding comes from.</p>
-			
+				<div class="col-sm-10 col-sm-offset-1">
+				<h1>Impact</h1>
+					<p>Kingdom Cares seeks to make an impact at a group and individual level, through its different programs. 
+					Creating a sense of community begins with our teams. We focus on developing leadership, sacrifice, teamwork, 
+					determination, and commitment both on and off the court.</p>
 				</div>	
+				<div class="col-sm-10 col-sm-offset-1">
+				<h2>The Group</h2>
+					<p>On a group level, this is accomplished by building unity among each team and our program as a whole. 
+					Between practices, traveling for tournaments, playing together, and sharing meals, teams are spending 
+					countless hours together on a weekly basis. Our hope is that Kingdom Cares becomes a second home, that our 
+					student athletes feel like they are a family.</p>
+				</div>
+				<h2>The Individual</h2>
+					<p>On an individual level, we recognize that every student is at different personal and athletic levels. 
+					Each one has unique goals and therefore has specific needs on their road to development. Coaches build 
+					relationships with their players, providing guidance and spiritual development. During our food program, 
+					volunteers spend time getting to know our students and providing meals daily. Some students have mentors that 
+					invest in them outside of basketball. More than anything we want every athlete to know that they have someone 
+					advocating for them, cheering them on and trying to make them better every day.</p>
+				</div>		
 			</div>		
 		</div>	
 	</section>				
-				
-				
-	<!-- Financials section -->
-    <section id="portfolio" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6 portfolio-item">
-                        <img src="https://kingdomcares.github.io/img/governance/income-graph.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h3 style="color: #ed1b2f">Program Revenues: $1,078,026.07 (76%)</h3>
-                        <h3 style="color: #595959">Donations: $156,505.22 (11%)</h3>
-                        <h3 style="color: #a6a6a6">Other: $191,839.43 (13%)</h3>
-                    </div>
-                </div>
-                <div class="col-sm-6 portfolio-item">
-                        <img src="https://kingdomcares.github.io/img/governance/expenses-graph.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h3 style="color: #ed1b2f">Program: $961,359.33 (68%)</h3>
-                        <h3 style="color: #595959">Administration: $449,641.62 (32%)</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>			
-				
-			
-	<section id="policies">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-10 col-sm-offset-1 text-center">
-				<h1 style="color: #ed1b2f">POLICIES</h1>
-					<hr>
-					<p>Our policies are in place to ensure proper governance and for the protection of the youth in our programs.</p>
-			
-				</div>	
-			</div>		
-		</div>	
-	</section>			
-
-				
-	<!-- Portfolio Grid Section -->
-    <section id="portfolio" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 portfolio-item text-center">
-                    <p>
-                    <a href="#portfolioModal1" data-toggle="modal">Code of Ethics</a>/
-                    <a href="#portfolioModal2" data-toggle="modal">Child Protection Policy</a>/
-                    <a href="#portfolioModal3" data-toggle="modal">Scholarship Policy</a>/
-                   	<a href="#portfolioModal4" data-toggle="modal">Gift Acceptance Policy</a>/
-                    <a href="#portfolioModal5" data-toggle="modal">Whistleblower Policy</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>			
-				
-    
+	
     
     <!-- Footer -->
     <footer>
@@ -848,133 +694,6 @@ body {
         </div>
     </footer>
     
-    <!-- Portfolio Modals -->
-    <!-- Use the modals below to showcase details about your portfolio projects! -->
-
-    <!-- Portfolio Modal 1 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h1>Code of Ethics</h1>
-                            <iframe src="http://docs.google.com/gview?url=http://rwdezign.com/pdf/kingdom-cares-code-of-ethics.pdf&embedded=true" 
-							style="width:100%; height:500px;" frameborder="0"></iframe>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa "></i>Back To Governance</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 2 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h1>Child Protection Policy</h1>
-                            <iframe src="http://docs.google.com/gview?url=http://rwdezign.com/pdf/kingdom-cares-child-protection.pdf&embedded=true" 
-							style="width:100%; height:500px;" frameborder="0"></iframe>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa "></i>Back To Governance</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <!-- Portfolio Modal 3 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h1>Scholarship Policy</h1>
-                            <iframe src="http://docs.google.com/gview?url=http://rwdezign.com/pdf/kingdom-cares-scholarship.pdf&embedded=true" 
-							style="width:100%; height:500px;" frameborder="0"></iframe>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa "></i>Back To Governance</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 4 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h1>Gift Acceptance Policy</h1>
-                            <iframe src="http://docs.google.com/gview?url=http://rwdezign.com/pdf/kingdom-cares-gift-acceptance.pdf&embedded=true" 
-							style="width:100%; height:500px;" frameborder="0"></iframe>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa "></i>Back To Governance</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <!-- Portfolio Modal 5 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h1>Whistleblower Policy</h1>
-                            <iframe src="http://docs.google.com/gview?url=http://rwdezign.com/pdf/kingdom-cares-whistleblower.pdf&embedded=true" 
-							style="width:100%; height:500px;" frameborder="0"></iframe>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa "></i>Back To Governance</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
@@ -990,7 +709,7 @@ body {
 
     <!-- Custom Theme JavaScript -->
     <script src="js/kingdom.js"></script>
-
+    
 
 </body>
 </html>
