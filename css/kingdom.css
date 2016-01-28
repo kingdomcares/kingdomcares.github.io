@@ -54,8 +54,8 @@ h6 {
 	.carousel-caption h1 {
 	color: #fff;
 	width: 100%;
-	padding-left: 15%;
-	padding-right: 15%;
+	padding-right: 14%; 
+    padding-left: 14%;
 	font-size: 32px !important;
 	font-weight: 700;
 	background-color: rgba(0,0,0,.2);
@@ -68,6 +68,34 @@ h6 {
     			 -0.25px 0.25px 0px #000000,
     			 0.25px -0.25px 0px #000000,
     			 0px 0.25px 1px #000000;
+    margin-bottom: 20px;
+	}
+	
+	.header-shadow h1 {
+	color: #fff;
+	width: 100%;
+	
+	font-size: 32px !important;
+	font-weight: 700;
+	background-color: rgba(0,0,0,.2);
+	box-shadow: 1px 1px 30px rgba(0,0,0,.2),
+				-1px -1px 30px rgba(0,0,0,.2);
+	text-align: left;
+	position: absolute;
+	bottom: 10px;
+	line-height: 1;
+	text-shadow: 0.25px 0.25px 0px #000000,
+    			 -0.25px -0.25px 0px #000000,
+    			 -0.25px 0.25px 0px #000000,
+    			 0.25px -0.25px 0px #000000,
+    			 0px 0.25px 1px #000000;
+	}
+	
+	
+	.header-shadow {
+    right: 14%; 
+    left: 14%;
+    padding-bottom: 30px;
 	}
 	
 	.carousel-caption {
@@ -87,6 +115,12 @@ h6 {
 	.carousel-caption {
     right: 0%; 
     left: 0%;
+    padding-bottom: 30px;
+	}
+	
+	.header-shadow {
+    right: 10%; 
+    left: 10%;
     padding-bottom: 30px;
 	}
 }
