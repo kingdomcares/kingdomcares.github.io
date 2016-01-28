@@ -96,22 +96,35 @@
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
-            
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
         </ol>
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
             
-            <div class="item active">
-                <div class="fill" style="background-image:url('img/camp.jpg');"></div>
+            <div class="item active" style="cursor: pointer;" onclick="window.location='http://www.kingdomhoops.com/';">
+                <div class="partnerships" style="background-image:url('img/index/energy-partnership.jpg');"></div>
                 <div class="carousel-caption">
-                    <h2 class="text-left"></h2>
+                    <h1 class="text-left">Partnerships That Support Central Iowa Youth</h1>
                 </div>
             </div>
-            <div class="item">
-                <div class="fill" style="background-image:url('img/drills.jpg');"></div>
-                <div class="carousel-caption">
-                    <h2></h2>
+            <div class="item" style="cursor: pointer;" onclick="window.location='http://www.kingdomhoops.com/';">
+                <div class="family" style="background-image:url('img/index/kingdom-hoops-family.jpg');"></div>
+                <div class="carousel-caption family-caption">
+                    <h1>Join The Kingdom Hoops Family Today!</h1>
+                </div>
+            </div>
+             <div class="item" style="cursor: pointer;" onclick="window.location='http://www.kingdomhoops.com/';">
+                <div class="hs" style="background-image:url('img/index/hs-program3.jpg');"></div>
+                <div class="carousel-caption family-caption">
+                    <h1>Follow Our 2016 High School Program Around The Country.</h1>
+                </div>
+            </div>
+             <div class="item" style="cursor: pointer;" onclick="window.location='influence';">
+                <div class="class" style="background-image:url('img/index/Grace3.jpg');"></div>
+                <div class="carousel-caption family-caption">
+                    <h1>Congrats to our class of 2015!</h1>
                 </div>
             </div>
         </div>
@@ -346,7 +359,7 @@
     <!-- Script to Activate the Carousel -->
     <script>
     $('.carousel').carousel({
-        interval: 5000 //changes the speed
+        interval: 40000 //changes the speed
     })
     </script>
 
