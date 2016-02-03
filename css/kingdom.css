@@ -700,8 +700,6 @@ body {
 }
 
 #fixed-footer  {
-	position: fixed;
-	bottom: 0px;
 	width:100%;
     background-color: #ed1b2f;
     padding:10px;
@@ -721,7 +719,3 @@ body {
 	height: 25px;
 	width: 25px;
 }
-
-footer {
-	margin-bottom:50px;
-	}
