@@ -23,6 +23,7 @@
     <!-- Plugin CSS -->
     <link rel="stylesheet" href="css/animate.min.css" type="text/css">
 	<link rel="stylesheet" href="css/kc-footer.css" type="text/css">
+	<link rel="stylesheet" href="css/support-footer.css" type="text/css">
 
 
     <!-- Custom CSS -->
@@ -446,12 +447,18 @@ fieldset[disabled] .btn-default.active {
 
 .dropdown-menu>li>a {
     font-size: 16px;
+    text-transform: uppercase;
     font-weight: 300;
     color: #333;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
 }
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #777;
+    line-height: 30px;
+	}
 
 .btn-primary.disabled,
 .btn-primary[disabled],
@@ -910,6 +917,19 @@ body {
         </div>
     </footer>
     
+    <section id="support-footer">
+		<div class="container">
+            <div  class="row text-center">
+            	<div class="col-xs-6">
+            		<a href="influence"><p>Our Influence</p></a>
+            	</div>
+            	<div class="col-xs-6">
+            		<a href="https://kingdomcaresinternational.cloverdonations.com/beyondball/" target="_blank"><p>Your Support<img src="img/kc-logo-black-sm.png"/></i></p></a>
+            	</div>
+            </div>
+        </div>
+    </section>
+    
     <!-- Portfolio Modals -->
     <!-- Use the modals below to showcase details about your portfolio projects! -->
 
@@ -1030,6 +1050,7 @@ body {
             </div>
         </div>
     </div>
+    
     
     <!-- jQuery -->
     <script src="js/jquery.js"></script>

@@ -451,12 +451,18 @@ fieldset[disabled] .btn-default.active {
 
 .dropdown-menu>li>a {
     font-size: 16px;
+    text-transform: uppercase;
     font-weight: 300;
     color: #333;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
 }
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #777;
+    line-height: 30px;
+	}
 
 .btn-primary.disabled,
 .btn-primary[disabled],
@@ -530,7 +536,7 @@ body {
 #kingdomhoops-header {
 	background-image: url(https://kingdomcares.github.io/img/story/our-story-header.jpg);
 	background-size: cover;
-	background-position: 15% 50%;
+	background-position: 10% 50%;
 	background-repeat: no-repeat;
 	height: 70%;
 	color: #fff;
@@ -635,10 +641,7 @@ body {
 	margin-bottom: 150px;
 	}
 
-#fixed-footer .col-xs-6 {
-	padding-left: 0px;
-	padding-right: 0px;
-	}
+
 
 @media(min-width:768px) {
     #kingdomhoops .row {
@@ -930,7 +933,7 @@ h3 {
         </div>
     </footer>
         
-    <section id="fixed-footer">
+    <section id="support-footer">
 		<div class="container">
             <div  class="row text-center">
             	<div class="col-xs-6">
